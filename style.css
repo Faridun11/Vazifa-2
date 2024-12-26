@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.card_wrapper {
+    width: 1250px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.card_wrapper .card1 {
+    padding: 5px 10px;
+}
+
+.card_wrapper .card img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.card_wrapper .card {
+    display: inline-block;
+    padding: 30px 10px;
+    margin: 10px 20px;
+    width: 25%;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0 0 20px 5px blue;
+    transition-duration: 1.9s;
+}
+
+.card_wrapper .card:hover {
+    box-shadow: 0 0 30px 9px green;
+    transition-duration: 1.2s;
+
+}
+
+.card_wrapper .card h4 {
+    color: chartreuse;
+    padding: 20px 5px;
+}
+
+.card_wrapper .card p {
+    width: 90%;
+    margin: -5px 20px;
+}
+
+.card_wrapper .card .link {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px 5px 5px 5px;
+    cursor: pointer;
+}
